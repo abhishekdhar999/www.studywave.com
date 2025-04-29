@@ -4,7 +4,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { DynaPuff } from "next/font/google";
-import Review from "../Components/Reviews.js"
+
 const DynaPuffs = DynaPuff({
   weight: '400',
   subsets: ['latin'],

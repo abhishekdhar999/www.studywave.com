@@ -1,7 +1,5 @@
 // pages/create-meeting.js
 import { useState } from "react";
-import axios from "axios";
-import Image from "next/image";
 import { DynaPuff } from "next/font/google";
 
 const DynaPuffs = DynaPuff({
