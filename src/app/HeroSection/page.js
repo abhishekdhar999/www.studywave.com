@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -5,9 +6,9 @@ import { motion } from "framer-motion";
 import { DynaPuff } from "next/font/google";
 
 const DynaPuffs = DynaPuff({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const HeroSection = () => {
@@ -41,7 +42,7 @@ export const HeroSection = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight">
               <span className="text-orange-500 font-extrabold text-[60px]">
                 Shaping Futures
-              </span>{" "}
+              </span>{' '}
               ,<br /> One Class at a Time.
             </h1>
             <p className={`text-black ${DynaPuffs.className}`}>
@@ -51,8 +52,7 @@ export const HeroSection = () => {
             <p className="mt-4 sm:mt-6 text-gray-600 text-base sm:text-lg">
               At The Study Wave, we offer personalized 1:1 live sessions that
               make learning simple and engaging. With expert tutors and a focus
-              on concept clarity,
-              <span className="text-orange-400">
+              on concept clarity,<span className="text-orange-400">
                 we help students not just learn — but truly thrive.
               </span>
             </p>
@@ -99,6 +99,29 @@ export const HeroSection = () => {
             <div className="absolute bottom-4 right-4 bg-white shadow-md p-2 sm:p-3 rounded-full border-4 border-orange-500 text-xs sm:text-sm font-semibold text-black text-center">
               100% Certification Guarantee
             </div>
+          </div>
+        </div>
+
+        {/* Trusted by Parents Section */}
+        <div className="relative w-full max-w-6xl mx-auto mt-12 bg-white shadow-lg rounded-lg p-4 sm:p-6 flex flex-col items-center space-y-4 border border-gray-200 my-12">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-800 text-center">
+            Serving Quality Education Worldwide
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
+            {[
+              { src: "flag-us-svgrepo-com.svg", alt: "USA" },
+              { src: "canada-svgrepo-com.svg", alt: "Canada" },
+              { src: "flag-for-flag-australia-svgrepo-com.svg", alt: "Australia" },
+              { src: "united-kingdom-uk-svgrepo-com.svg", alt: "UK" },
+              { src: "flag-for-flag-poland-svgrepo-com.svg", alt: "Poland" },
+            ].map(({ src, alt }) => (
+              <img
+                key={alt}
+                src={`https://raw.githubusercontent.com/imAbhishekRao/Photos_storage_for_clients/4ff7da8c57243bf8f74ad935c4e48e6f8e6829cc/${src}`}
+                alt={alt}
+                className="w-24 sm:w-28 md:w-32 h-auto rounded-md"
+              />
+            ))}
           </div>
         </div>
       </section>
