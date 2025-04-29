@@ -2,8 +2,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { users } from '../Database/db';
-import jwt from 'jsonwebtoken'; // Make sure to install: npm install jsonwebtoken
-import { generateAccessAndRefreshTokens } from '../utils/generateToken';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

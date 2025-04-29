@@ -1,7 +1,6 @@
 import jwt from 'jsonwebtoken';
-// import asyncHandler from 'express-async-handler';
 import { users } from "../src/app/Database/db.js"; // Adjust path as needed
-// import ApiError from './ApiError.js'; // Replace with your error handler if different
+
 
 export const verifyJwt = async (req, res, next) => {
   try {
