@@ -51,7 +51,7 @@ const Review = () => {
     <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
         <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             {/* <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Efficient Collaborating</h3> */}
-            <p className="my-4">We're very happy with our child's progress. The teachers are supportive, and the learning environment is excellent. Our child feels more confident and excited to learn every day.</p>
+            <p className="my-4">Were very happy with our childs progress. The teachers are supportive, and the learning environment is excellent. Our child feels more confident and excited to learn every day.</p>
         </blockquote>
         <figcaption className="flex items-center justify-center ">
             <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture"/>

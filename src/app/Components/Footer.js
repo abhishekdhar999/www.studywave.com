@@ -12,7 +12,7 @@ export const Footer = () => {
               <span className="text-rose-600"><span className="text-black">THE</span> STUDY <span className="text-black">WAVE</span></span>
             </h1>
             <p className="mt-[18px] text-[15px] font-normal text-white/80">
-            We are committed to empowering learners and educators by creating seamless, impactful digital experiences. Whether you're here to teach, learn, or grow—our platform is designed to support you every step of the way.
+            We are committed to empowering learners and educators by creating seamless, impactful digital experiences. Whether youre here to teach, learn, or grow—our platform is designed to support you every step of the way.
             </p>
 
             {/* Social Media Links */}
